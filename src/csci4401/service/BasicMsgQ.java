@@ -12,6 +12,7 @@ public class BasicMsgQ implements MsgQ {
      * <b>TODO:</b> Implement this method as per the interface specification.
      */
     public void append(Serializable message) {
+
     }
 
     /**
