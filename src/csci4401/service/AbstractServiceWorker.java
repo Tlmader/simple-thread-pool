@@ -1,7 +1,5 @@
 package csci4401.service;
 
-import csci4401.service.MsgQ;
-
 import java.io.Serializable;
 
 /**

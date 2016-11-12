@@ -1,9 +1,6 @@
 package csci4401.service;
 
-import csci4401.service.MsgQ;
-
 import java.io.Serializable;
-import java.util.*;
 
 /**
  * <b>[TODO]</b> Basic queue implementation.
@@ -14,7 +11,8 @@ public class BasicMsgQ implements MsgQ {
     /**
      * <b>TODO:</b> Implement this method as per the interface specification.
      */
-    public void append(Serializable message) {}
+    public void append(Serializable message) {
+    }
 
     /**
      * <b>TODO:</b> Implement this method as per the interface specification.

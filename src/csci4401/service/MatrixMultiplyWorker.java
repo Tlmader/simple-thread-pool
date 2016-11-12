@@ -18,19 +18,23 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
      * Initializes the matrixes based on the size parameter.
      * <b>TODO:</b> Implement this method.
      */
-    private void initMatrixes() {}
+    private void initMatrixes() {
+    }
 
     /**
      * Performs one iterarion of matrix multiplication.
      * <b>TODO:</b> Implement this method.
      */
-    private void doMatrixMultiplication() {}
+    private void doMatrixMultiplication() {
+    }
 
     /**
      * Invokes the initialization of source matrices and the execution of the required number of iterations.
-     * The result is a <pre>Long</pre> object, which contains the execution time in milliseconds for all computations, <b>without</b> the initialization.
+     * The result is a <pre>Long</pre> object, which contains the execution time in milliseconds for all computations,
+     * <b>without</b> the initialization.
      * <b>TODO:</b> Implement this method.
      */
-    public void run() {}
+    public void run() {
+    }
 
 }

@@ -1,7 +1,5 @@
 package csci4401.service;
 
-import csci4401.service.MatrixMultiplyServicePool;
-
 /**
  * Example test code; lacks timing. Use as needed.
  */

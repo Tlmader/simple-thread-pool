@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b05550-c20f-423b-91fa-052b46231461" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/csci4401/service/ServicePool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/csci4401/service/impl/AbstractServiceWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/csci4401/service/impl/BasicMsgQ.java" afterPath="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultipleServiceWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultiplyParameters.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultiplyServicePool.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MsgQ.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MsgQ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" afterPath="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/ServicePool.java" afterPath="$PROJECT_DIR$/src/csci4401/service/ServicePool.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/csci4401/service/TestService.java" afterPath="$PROJECT_DIR$/test/csci4401/service/TestService.java" />
     </list>
     <ignored path="csci4401-pa2.iws" />
@@ -33,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/csci4401/service/TestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -46,11 +43,19 @@
       <file leaf-file-name="BasicMsgQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractServiceWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,6 +65,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicePool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csci4401/service/ServicePool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixMultiplyParameters.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatrixMultiplyWorkerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixMultiplyParameters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -117,14 +152,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/TestService.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/TestService.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultipleServiceWorker.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultiplyParameters.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultiplyServicePool.java" />
-        <option value="$PROJECT_DIR$/test/csci4401/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MsgQ.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/ServicePool.java" />
+        <option value="$PROJECT_DIR$/test/csci4401/service/TestService.java" />
       </list>
     </option>
   </component>
@@ -704,12 +743,12 @@
       <option name="presentableId" value="Default" />
       <updated>1478197436562</updated>
       <workItem from="1478197437963" duration="1004000" />
-      <workItem from="1478910116452" duration="1041000" />
+      <workItem from="1478910116452" duration="1073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2045000" />
+    <option name="totallyTimeSpent" value="2077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -777,36 +816,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/csci4401/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MsgQ.java">
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -827,10 +856,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java">
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MsgQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/ServicePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/csci4401/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
