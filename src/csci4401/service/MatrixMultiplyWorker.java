@@ -20,7 +20,7 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
     }
 
     /**
-     * Initializes the matrixes based on the size parameter.
+     * Initializes the matrices based on the size parameter.
      * <b>TODO:</b> Implement this method.
      */
     private void initMatrixes() {
@@ -30,14 +30,15 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
     }
 
     /**
-     * Performs one iterarion of matrix multiplication.
-     * <b>TODO:</b> Implement this method.
+     * Performs one iteration of matrix multiplication.
      */
     private void doMatrixMultiplication() {
-        c = Arrays.stream(a).map(r -> IntStream.range(0, b[0].length)
+        c = Arrays.stream(a)
+                .map(r -> IntStream.range(0, b[0].length)
                 .mapToDouble(i -> IntStream.range(0, b.length)
                         .mapToDouble(j -> r[j] * b[j][i]).sum())
-                .toArray()).toArray(double[][]::new);
+                        .toArray())
+                .toArray(double[][]::new);
     }
 
     /**
@@ -55,5 +56,4 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
         Long time = (end-start);
         resultQ.append(time);
     }
-
 }
