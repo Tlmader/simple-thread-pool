@@ -17,14 +17,19 @@ public class BasicMsgQ implements MsgQ {
     public void append(Serializable message) {
         queue.add(message);
         this.notify();
+        System.out.println("Notified!");
     }
 
     /**
      * @see MsgQ#pop()
      */
-    public synchronized Serializable pop() throws InterruptedException {
-        while(queue.size() == 0)
+    public synchronized Serializable pop() {
+        try {
+            System.out.println("Waiting...");
             this.wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return queue.remove();
     }
 

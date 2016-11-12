@@ -37,7 +37,8 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
     /**
      * Performs one iteration of matrix multiplication.
      */
-    private void doMatrixMultiplication() {
+    private void doMatrixMultiplication(int iteration) {
+        System.out.println("Calculation " + iteration + " complete");
         Arrays.stream(a)
                 .map(r -> IntStream.range(0, b[0].length)
                         .mapToDouble(i -> IntStream.range(0, b.length)
@@ -53,11 +54,9 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
     public void run() {
         initMatrixes();
         Long start = System.currentTimeMillis();
-        IntStream.range(0, iterations).forEach(i -> doMatrixMultiplication());
-        doMatrixMultiplication();
+        IntStream.range(0, iterations).forEach(i -> doMatrixMultiplication(i));
         Long end = System.currentTimeMillis();
         Long time = (end - start);
-        resultQ.append(time);
         resultQ.append(time);
     }
 }
