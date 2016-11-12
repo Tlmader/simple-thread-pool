@@ -5,32 +5,33 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * <b>[TODO]</b> Basic queue implementation.
- * Implement missing functionality in this class.
+ * @see MsgQ
  */
 public class BasicMsgQ implements MsgQ {
 
-    private Queue queue = new LinkedList<Serializable>();
+    private Queue<Serializable> queue = new LinkedList<>();
 
     /**
-     * <b>TODO:</b> Implement this method as per the interface specification.
+     * @see MsgQ#append(Serializable) ()
      */
     public void append(Serializable message) {
-        queue.
+        queue.add(message);
+        this.notify();
     }
 
     /**
-     * <b>TODO:</b> Implement this method as per the interface specification.
+     * @see MsgQ#pop()
      */
-    public Serializable pop() throws InterruptedException {
-        return null;
+    public synchronized Serializable pop() throws InterruptedException {
+        while(queue.size() == 0)
+            this.wait();
+        return queue.remove();
     }
 
     /**
-     * <b>TODO:</b> Implement this method as per the interface specification.
+     * @see MsgQ#asyncPop()
      */
     public Serializable asyncPop() {
-        return null;
+        return queue.remove();
     }
-
 }
