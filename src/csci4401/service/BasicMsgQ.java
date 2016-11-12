@@ -1,6 +1,8 @@
 package csci4401.service;
 
 import java.io.Serializable;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * <b>[TODO]</b> Basic queue implementation.
@@ -8,11 +10,13 @@ import java.io.Serializable;
  */
 public class BasicMsgQ implements MsgQ {
 
+    private Queue queue = new LinkedList<Serializable>();
+
     /**
      * <b>TODO:</b> Implement this method as per the interface specification.
      */
     public void append(Serializable message) {
-
+        queue.
     }
 
     /**
