@@ -1,7 +1,6 @@
 package csci4401.service;
 
-import csci4401.service.impl.MatrixMultiplyParameters;
-import csci4401.service.impl.MatrixMultiplyServicePool;
+import csci4401.service.MatrixMultiplyServicePool;
 
 /**
  * Example test code; lacks timing. Use as needed.
@@ -12,6 +11,7 @@ public class TestService {
         sequentialTest();
         parallelTest();
     }
+
     /**
      * Launches the workers one after the other.
      */
@@ -19,7 +19,7 @@ public class TestService {
         MatrixMultiplyServicePool servicePool = new MatrixMultiplyServicePool(5, 10);
 
         int max = 8;
-        for(int i=0; i<max; i++) {
+        for (int i = 0; i < max; i++) {
             servicePool.addRequest(new MatrixMultiplyParameters(200, 100));
             System.out.println(servicePool.getResponse());
         }
@@ -32,10 +32,10 @@ public class TestService {
         MatrixMultiplyServicePool servicePool = new MatrixMultiplyServicePool(5, 10);
 
         int max = 8;
-        for(int i=0; i<max; i++) {
+        for (int i = 0; i < max; i++) {
             servicePool.addRequest(new MatrixMultiplyParameters(200, 100));
         }
-        for(int i=0; i<max; i++) {
+        for (int i = 0; i < max; i++) {
             System.out.println(servicePool.getResponse());
         }
     }

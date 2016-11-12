@@ -1,4 +1,4 @@
-package csci4401.service.impl;
+package csci4401.service;
 
 import csci4401.service.MsgQ;
 

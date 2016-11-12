@@ -1,4 +1,4 @@
-package csci4401.service.impl;
+package csci4401.service;
 
 /**
  * Simple class (struct) to pass on parameters for the matrix multiplication computation.

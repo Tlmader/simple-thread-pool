@@ -1,17 +1,15 @@
-package csci4401.service.impl;
-
-import csci4401.service.MsgQ;
+package csci4401.service;
 
 /**
  * <b>[TODO]</b> Matrix multiplier worker.
  * Implement missing functionality in this class.
  */
-public class MatrixMultipleServiceWorker extends AbstractServiceWorker {
+public class MatrixMultiplyWorker extends AbstractServiceWorker {
 
     private double[][] a, b, c;
     private int mSize;
 
-    public MatrixMultipleServiceWorker(MatrixMultiplyParameters parameters, MsgQ resultQ) {
+    public MatrixMultiplyWorker(MatrixMultiplyParameters parameters, MsgQ resultQ) {
         super(parameters, resultQ);
         mSize = parameters.matrixSize;
     }

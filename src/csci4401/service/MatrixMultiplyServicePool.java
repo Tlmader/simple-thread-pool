@@ -1,4 +1,4 @@
-package csci4401.service.impl;
+package csci4401.service;
 
 import java.io.Serializable;
 
@@ -9,20 +9,22 @@ import java.io.Serializable;
  */
 public class MatrixMultiplyServicePool implements ServicePool {
 
-    int poolMin, poolMax, poolSize=0;
+    int poolMin, poolMax, poolSize = 0;
     MsgQ resultQ = new BasicMsgQ();
     MatrixMultiplyWorkerFactory factory = new MatrixMultiplyWorkerFactory();
 
     /**
-     * @param poolMin   minimum pool size (not used)
-     * @param poolMax   maximum pool size (not used)
+     * @param poolMin minimum pool size (not used)
+     * @param poolMax maximum pool size (not used)
      */
     public MatrixMultiplyServicePool(int poolMin, int poolMax) {
         this.poolMin = poolMin;
         this.poolMax = poolMax;
     }
+
     /**
-     * Trivial implementation: every request triggers the creation of a new thread, which at the end of the computation dies (it is NOT reused).
+     * Trivial implementation: every request triggers the creation of a new thread, which at the end of the computation
+     * dies (it is NOT reused).
      */
     public void addRequest(Serializable request) {
         factory.newServiceWorker(request, resultQ).start();
