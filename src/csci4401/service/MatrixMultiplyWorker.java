@@ -22,8 +22,16 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
      * Initializes the matrices based on the size parameter.
      */
     private void initMatrixes() {
-        a = new double[mSize][mSize];
-        b = new double[mSize][mSize];
+        a = buildMatrix();
+        b = buildMatrix();
+    }
+
+    private double[][] buildMatrix() {
+        return IntStream.range(0, mSize)
+                .mapToObj(x -> IntStream.range(0, mSize)
+                        .mapToDouble(y -> (x + 1) * (y + 1))
+                        .toArray())
+                .toArray(double[][]::new);
     }
 
     /**
