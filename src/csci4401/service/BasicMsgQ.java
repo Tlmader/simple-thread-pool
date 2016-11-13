@@ -1,7 +1,6 @@
 package csci4401.service;
 
 import java.io.Serializable;
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -17,12 +16,11 @@ public class BasicMsgQ implements MsgQ {
     }
 
     /**
-     * @see MsgQ#append(Serializable) ()
+     * @see MsgQ#append(Serializable)
      */
     public synchronized void append(Serializable message) {
         queue.add(message);
         this.notify();
-        System.out.println("Notified!");
     }
 
     /**
@@ -31,7 +29,6 @@ public class BasicMsgQ implements MsgQ {
     public synchronized Serializable pop() {
         while (queue.isEmpty()) {
             try {
-                System.out.println("Waiting...");
                 this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
