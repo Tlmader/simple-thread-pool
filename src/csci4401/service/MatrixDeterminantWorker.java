@@ -43,7 +43,7 @@ public class MatrixDeterminantWorker extends AbstractServiceWorker {
     }
 
     /**
-     * Returns the determinant of the given matrix.
+     * Returns the determinant of the given matrix using "Laplacian" determinant expansion by minors.
      *
      * @param matrix a two-dimensional matrix of doubles
      * @return the determinant

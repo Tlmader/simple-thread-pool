@@ -11,6 +11,6 @@ public class MatrixDeterminantWorkerFactory implements ServiceWorkerFactory {
      * Instantiates a new matrix multiplication service worker.
      */
     public AbstractServiceWorker newServiceWorker(Serializable parameters, MsgQ resultQ) {
-        return new MatrixMultiplyWorker((MatrixMultiplyParameters) parameters, resultQ);
+        return new MatrixDeterminantWorker((MatrixDeterminantParameters) parameters, resultQ);
     }
 }

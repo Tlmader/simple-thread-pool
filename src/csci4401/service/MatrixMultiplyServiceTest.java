@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 /**
  * Example test code; lacks timing. Use as needed.
  */
-public class TestService {
+public class MatrixMultiplyServiceTest {
 
     private static PrintWriter writer;
 
