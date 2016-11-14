@@ -14,7 +14,7 @@ public class MatrixDeterminantWorker extends AbstractServiceWorker {
     private int mSize;
     private int iterations;
 
-    public MatrixDeterminantWorker(MatrixMultiplyParameters parameters, MsgQ resultQ) {
+    public MatrixDeterminantWorker(MatrixDeterminantParameters parameters, MsgQ resultQ) {
         super(parameters, resultQ);
         mSize = parameters.matrixSize;
         iterations = parameters.iterations;
