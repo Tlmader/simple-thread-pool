@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b05550-c20f-423b-91fa-052b46231461" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServiceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/csci4401/service/TestService.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServiceTest.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java" />
     </list>
     <ignored path="csci4401-pa2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixDeterminantServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatrixDeterminantServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,34 +64,14 @@
       <file leaf-file-name="MatrixDeterminantWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="52">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding>
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatrixMultiplyServicePool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatrixMultiplyWorkerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -98,18 +79,18 @@
       <file leaf-file-name="MatrixDeterminantServicePool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="-8">
+              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixDeterminantWorkerFactory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MatrixDeterminantWorkerFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -118,8 +99,8 @@
       <file leaf-file-name="MatrixDeterminantParameters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -160,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultiplyParameters.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/impl/MatrixMultiplyServicePool.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MsgQ.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyParameters.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/AbstractServiceWorker.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/ServicePool.java" />
@@ -168,14 +148,15 @@
         <option value="$PROJECT_DIR$/src/csci4401/service/ServiceWorkerFactory.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java" />
       </list>
     </option>
   </component>
@@ -322,7 +303,7 @@
       <recent name="$PROJECT_DIR$/src/csci4401/service/impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixMultiplyTest">
+  <component name="RunManager" selected="Application.MatrixDeterminantTest">
     <configuration default="true" type="#com.intellij.j2meplugin.run.J2MEConfigurationType" factoryName="J2ME">
       <module name="" />
       <USER_OPTIONS />
@@ -888,12 +869,12 @@
       <updated>1478197436562</updated>
       <workItem from="1478197437963" duration="1004000" />
       <workItem from="1478910116452" duration="18856000" />
-      <workItem from="1479068724002" duration="9623000" />
+      <workItem from="1479068724002" duration="9922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29483000" />
+    <option name="totallyTimeSpent" value="29782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -909,7 +890,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5176991" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1173,42 +1154,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1223,31 +1172,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java">
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="75">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServicePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixDeterminantWorkerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>

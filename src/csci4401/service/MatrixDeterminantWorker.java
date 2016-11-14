@@ -36,7 +36,7 @@ public class MatrixDeterminantWorker extends AbstractServiceWorker {
     }
 
     /**
-     * Performs one iteration of matrix multiplication.
+     * Performs one iteration of getting the matrix determinant.
      */
     private void doMatrixDeterminant() {
         getDeterminant(a);

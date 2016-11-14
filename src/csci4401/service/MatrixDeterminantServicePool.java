@@ -3,7 +3,7 @@ package csci4401.service;
 import java.io.Serializable;
 
 /**
- * Simple implementaion of a service pool for matrix multiplication workers.
+ * Simple implementation of a service pool for matrix determinant workers.
  * Most of the work is done by the worker (computation) and the message queue implementation (synchronization).
  * <b>Provided class--do not modify</b>.
  */

@@ -1,7 +1,7 @@
 package csci4401.service;
 
 /**
- * Simple class (struct) to pass on parameters for the matrix multiplication computation.
+ * Simple class (struct) to pass on parameters for the matrix determinant computation.
  * <b>Provided class--do not modify</b>.
  */
 public class MatrixDeterminantParameters implements java.io.Serializable {
