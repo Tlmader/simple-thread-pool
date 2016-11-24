@@ -15,6 +15,13 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
 
     public MatrixMultiplyWorker(MatrixMultiplyParameters parameters, BalancedMMServicePool pool) {
         super(parameters, pool.resultQ);
+        this.pool = pool;
+        mSize = parameters.matrixSize;
+        iterations = parameters.iterations;
+    }
+
+    public MatrixMultiplyWorker(MatrixMultiplyParameters parameters, MsgQ resultQ) {
+        super(parameters, resultQ);
         mSize = parameters.matrixSize;
         iterations = parameters.iterations;
     }
@@ -57,6 +64,10 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
         IntStream.range(0, iterations).forEach(i -> doMatrixMultiplication());
         Long end = System.currentTimeMillis();
         Long time = (end - start);
-        pool.addResult(time);
+        if (pool != null) {
+            pool.addResult(time);
+        } else {
+            resultQ.append(time);
+        }
     }
 }

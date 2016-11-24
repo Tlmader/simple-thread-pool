@@ -24,7 +24,7 @@ public class MatrixMultiplyServiceTest {
      * Launches the workers one after the other.
      */
     static private void sequentialTest(int mSize, int iterations) throws Exception {
-        MatrixMultiplyServicePool servicePool = new MatrixMultiplyServicePool(5, 10);
+        BalancedMMServicePool servicePool = new BalancedMMServicePool(0, Runtime.getRuntime().availableProcessors());
         String threadResults = "";
         int max = 8;
         System.out.println("BEGIN Sequential Test | iterations: " + iterations + " | mSize: " + mSize);
@@ -45,7 +45,7 @@ public class MatrixMultiplyServiceTest {
      * Launches the workers in parallel.
      */
     static private void parallelTest(int mSize, int iterations) throws Exception {
-        MatrixMultiplyServicePool servicePool = new MatrixMultiplyServicePool(5, 10);
+        BalancedMMServicePool servicePool = new BalancedMMServicePool(0, Runtime.getRuntime().availableProcessors());
         String threadResults = "";
         int max = 8;
         System.out.println("BEGIN Parallel Test | iterations: " + iterations + " | mSize: " + mSize);

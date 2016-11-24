@@ -30,6 +30,14 @@ public class MatrixMultiplyServicePool implements ServicePool {
     }
 
     /**
+     * Trivial implementation: every request triggers the creation of a new thread, which at the end of the computation
+     * dies (it is NOT reused).
+     */
+    public void addRequest(Serializable request, BalancedMMServicePool pool) {
+        factory.newServiceWorker(request, pool).start();
+    }
+
+    /**
      * Pops the first response from the queue. BLOCKING.
      */
     public Serializable getResponse() throws InterruptedException {

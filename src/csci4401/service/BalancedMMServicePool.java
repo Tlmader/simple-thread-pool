@@ -33,12 +33,12 @@ public class BalancedMMServicePool extends MatrixMultiplyServicePool {
                 }
             }
             try {
-                super.addRequest(delayedRequests.pop());
+                super.addRequest(delayedRequests.pop(), this);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         } else {
-            super.addRequest(request);
+            super.addRequest(request, this);
         }
     }
 
