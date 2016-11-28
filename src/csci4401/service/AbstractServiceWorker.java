@@ -6,10 +6,14 @@ import java.io.Serializable;
  * Defines an abstract worker as a <i>Thread</i> and some internal state.
  * <b>Provided class--do not modify</b>.
  */
-public abstract class AbstractServiceWorker extends Thread {
+public abstract class AbstractServiceWorker extends Thread implements Serializable {
 
     protected Serializable parameters;
     protected MsgQ resultQ;
+
+    public AbstractServiceWorker(MsgQ resultQ) {
+        this.resultQ = resultQ;
+    }
 
     /**
      * @param parameters    initialization parameters needed for the computation.
@@ -19,5 +23,4 @@ public abstract class AbstractServiceWorker extends Thread {
         this.parameters = parameters;
         this.resultQ = resultQ;
     }
-
 }

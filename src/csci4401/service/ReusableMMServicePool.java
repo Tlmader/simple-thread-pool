@@ -1,25 +1,29 @@
 package csci4401.service;
 
 import java.io.Serializable;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.stream.IntStream;
 
 /**
  * A more advanced implementaion of a service pool for matrix multiplication workers,
  * which matches the number of outstanding jobs to the number of available hardware-supported threads.
  * <b>TODO:</b> Implement this class.
  */
-public class BalancedMMServicePool extends MatrixMultiplyServicePool {
+public class ReusableMMServicePool extends BalancedMMServicePool {
 
-    MsgQ delayedRequests = new BasicMsgQ();
+    Queue<AbstractServiceWorker> workers = new PriorityQueue<>();
 
     /**
      * @param poolMin minimum pool size
      * @param poolMax maximum pool size
      */
-    public BalancedMMServicePool(int poolMin, int poolMax) {
+    public ReusableMMServicePool(int poolMin, int poolMax) {
         super(poolMin, poolMax);
+        IntStream.range(0, poolMax).forEach(i -> workers.add(factory.newServiceWorker(this)));
     }
 
-    @Override
     public synchronized void addRequest(Serializable request) {
         System.out.println(java.lang.Thread.activeCount());
         if (java.lang.Thread.activeCount() >= poolMax) {
@@ -32,13 +36,20 @@ public class BalancedMMServicePool extends MatrixMultiplyServicePool {
                 }
             }
             try {
-                super.addRequest(delayedRequests.pop(), this);
+                addRequestForReusableWorker(delayedRequests.pop());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         } else {
-            super.addRequest(request, this);
+            addRequestForReusableWorker(request);
         }
+    }
+
+    private void addRequestForReusableWorker(Serializable request) {
+        MatrixMultiplyWorker worker = (MatrixMultiplyWorker) workers.remove();
+        worker.setParameters((MatrixMultiplyParameters) request);
+        worker.start();
+        workers.add(worker);
     }
 
     /**

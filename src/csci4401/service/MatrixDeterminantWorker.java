@@ -78,7 +78,12 @@ public class MatrixDeterminantWorker extends AbstractServiceWorker {
      * The result is a <pre>Long</pre> object, which contains the execution time in milliseconds for all computations,
      * <b>without</b> the initialization.
      */
-    public void run() {
+    public synchronized void run() {
+        try {
+            wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         initMatrixes();
         Long start = System.currentTimeMillis();
         IntStream.range(0, iterations).forEach(i -> doMatrixDeterminant());

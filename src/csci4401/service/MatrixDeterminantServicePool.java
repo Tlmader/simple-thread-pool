@@ -9,7 +9,7 @@ import java.io.Serializable;
  */
 public class MatrixDeterminantServicePool implements ServicePool {
 
-    int poolMin, poolMax, poolSize = 0;
+    int poolMin, poolMax = 0;
     MsgQ resultQ = new BasicMsgQ();
     MatrixDeterminantWorkerFactory factory = new MatrixDeterminantWorkerFactory();
 

@@ -8,7 +8,7 @@ import java.io.Serializable;
  */
 public class MatrixMultiplyServicePool implements ServicePool {
 
-    int poolMin, poolMax, poolSize = 0;
+    int poolMin, poolMax = 0;
     MsgQ resultQ = new BasicMsgQ();
     MatrixMultiplyWorkerFactory factory = new MatrixMultiplyWorkerFactory();
 
