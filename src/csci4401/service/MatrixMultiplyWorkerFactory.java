@@ -13,4 +13,16 @@ public class MatrixMultiplyWorkerFactory implements ServiceWorkerFactory {
     public AbstractServiceWorker newServiceWorker(Serializable parameters, MsgQ resultQ) {
         return new MatrixMultiplyWorker((MatrixMultiplyParameters) parameters, resultQ);
     }
+    /**
+     * Instantiates a new matrix multiplication service worker for usage with BalancedMMServicePool.
+     */
+    public AbstractServiceWorker newServiceWorker(Serializable parameters, BalancedMMServicePool pool) {
+        return new MatrixMultiplyWorker((MatrixMultiplyParameters) parameters, pool);
+    }
+    /**
+     * Instantiates a new matrix multiplication service worker for usage with ReusableMMServicePool.
+     */
+    public ReusableMMWorker newServiceWorker(ReusableMMServicePool pool) {
+        return new ReusableMMWorker(pool);
+    }
 }

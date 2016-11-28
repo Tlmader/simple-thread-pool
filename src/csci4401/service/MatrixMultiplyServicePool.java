@@ -8,7 +8,7 @@ import java.io.Serializable;
  */
 public class MatrixMultiplyServicePool implements ServicePool {
 
-    int poolMin, poolMax, poolSize = 0;
+    int poolMin, poolMax = 0;
     MsgQ resultQ = new BasicMsgQ();
     MatrixMultiplyWorkerFactory factory = new MatrixMultiplyWorkerFactory();
 
@@ -27,6 +27,14 @@ public class MatrixMultiplyServicePool implements ServicePool {
      */
     public void addRequest(Serializable request) {
         factory.newServiceWorker(request, resultQ).start();
+    }
+
+    /**
+     * Trivial implementation: every request triggers the creation of a new thread, which at the end of the computation
+     * dies (it is NOT reused).
+     */
+    public void addRequest(Serializable request, BalancedMMServicePool pool) {
+        factory.newServiceWorker(request, pool).start();
     }
 
     /**

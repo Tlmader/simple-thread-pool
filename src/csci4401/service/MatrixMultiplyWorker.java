@@ -1,16 +1,25 @@
 package csci4401.service;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
  * @see AbstractServiceWorker
  */
-public class MatrixMultiplyWorker extends AbstractServiceWorker {
+public class MatrixMultiplyWorker extends AbstractServiceWorker implements Serializable {
 
     private double[][] a, b;
-    private int mSize;
-    private int iterations;
+    protected int mSize;
+    protected int iterations;
+    protected BalancedMMServicePool pool;
+
+    public MatrixMultiplyWorker(MatrixMultiplyParameters parameters, BalancedMMServicePool pool) {
+        super(parameters, pool.resultQ);
+        this.pool = pool;
+        mSize = parameters.matrixSize;
+        iterations = parameters.iterations;
+    }
 
     public MatrixMultiplyWorker(MatrixMultiplyParameters parameters, MsgQ resultQ) {
         super(parameters, resultQ);
@@ -50,12 +59,21 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker {
      * The result is a <pre>Long</pre> object, which contains the execution time in milliseconds for all computations,
      * <b>without</b> the initialization.
      */
+    @Override
     public void run() {
+        doComputation();
+    }
+
+    protected void doComputation() {
         initMatrixes();
         Long start = System.currentTimeMillis();
         IntStream.range(0, iterations).forEach(i -> doMatrixMultiplication());
         Long end = System.currentTimeMillis();
         Long time = (end - start);
-        resultQ.append(time);
+        if (pool != null) {
+            pool.addResult(time);
+        } else {
+            resultQ.append(time);
+        }
     }
 }
