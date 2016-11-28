@@ -5,7 +5,6 @@ import java.io.Serializable;
 /**
  * A more advanced implementaion of a service pool for matrix multiplication workers,
  * which matches the number of outstanding jobs to the number of available hardware-supported threads.
- * <b>TODO:</b> Implement this class.
  */
 public class BalancedMMServicePool extends MatrixMultiplyServicePool {
 
@@ -44,8 +43,6 @@ public class BalancedMMServicePool extends MatrixMultiplyServicePool {
     /**
      * Notifies the service pool that a worker has completed the computation with the given result.
      * If there are any outstanding requests, the first in line should be serviced.
-     * <p>
-     * <b>TODO:</b> Implement this method.
      */
     public synchronized void addResult(Serializable result) {
         this.notify();

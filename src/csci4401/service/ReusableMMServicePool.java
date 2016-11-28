@@ -1,7 +1,6 @@
 package csci4401.service;
 
 import java.io.Serializable;
-import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.stream.IntStream;
@@ -9,7 +8,6 @@ import java.util.stream.IntStream;
 /**
  * A more advanced implementaion of a service pool for matrix multiplication workers,
  * which matches the number of outstanding jobs to the number of available hardware-supported threads.
- * <b>TODO:</b> Implement this class.
  */
 public class ReusableMMServicePool extends BalancedMMServicePool {
 
@@ -24,6 +22,7 @@ public class ReusableMMServicePool extends BalancedMMServicePool {
         IntStream.range(0, poolMax).forEach(i -> workers.add(factory.newServiceWorker(this)));
     }
 
+    @Override
     public synchronized void addRequest(Serializable request) {
         System.out.println(java.lang.Thread.activeCount());
         if (java.lang.Thread.activeCount() >= poolMax) {
@@ -55,8 +54,6 @@ public class ReusableMMServicePool extends BalancedMMServicePool {
     /**
      * Notifies the service pool that a worker has completed the computation with the given result.
      * If there are any outstanding requests, the first in line should be serviced.
-     * <p>
-     * <b>TODO:</b> Implement this method.
      */
     public synchronized void addResult(Serializable result) {
         this.notify();
