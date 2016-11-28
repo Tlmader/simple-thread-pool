@@ -1,270 +1,270 @@
-Sequential Test, iterations: 1, mSize: 100, Result: 135 ms
-Thread 0: 36 ms
-Thread 1: 13 ms
-Thread 2: 16 ms
-Thread 3: 14 ms
-Thread 4: 12 ms
-Thread 5: 12 ms
-Thread 6: 12 ms
-Thread 7: 11 ms
-Parallel Test, iterations: 1, mSize: 100, Result: 25 ms
-Thread 0: 18 ms
-Thread 1: 18 ms
-Thread 2: 19 ms
-Thread 3: 20 ms
-Thread 4: 20 ms
-Thread 5: 21 ms
+Sequential Test, iterations: 1, mSize: 100, Result: 90 ms
+Thread 0: 11 ms
+Thread 1: 10 ms
+Thread 2: 10 ms
+Thread 3: 10 ms
+Thread 4: 10 ms
+Thread 5: 10 ms
+Thread 6: 10 ms
+Thread 7: 16 ms
+Parallel Test, iterations: 1, mSize: 100, Result: 22 ms
+Thread 0: 17 ms
+Thread 1: 17 ms
+Thread 2: 17 ms
+Thread 3: 18 ms
+Thread 4: 17 ms
+Thread 5: 16 ms
 Thread 6: 20 ms
-Thread 7: 24 ms
-Sequential Test, iterations: 2, mSize: 100, Result: 191 ms
-Thread 0: 23 ms
-Thread 1: 29 ms
-Thread 2: 26 ms
-Thread 3: 22 ms
-Thread 4: 22 ms
-Thread 5: 22 ms
-Thread 6: 22 ms
 Thread 7: 21 ms
-Parallel Test, iterations: 2, mSize: 100, Result: 53 ms
-Thread 0: 39 ms
-Thread 1: 40 ms
-Thread 2: 41 ms
-Thread 3: 45 ms
-Thread 4: 46 ms
-Thread 5: 42 ms
-Thread 6: 34 ms
-Thread 7: 37 ms
-Sequential Test, iterations: 3, mSize: 100, Result: 329 ms
-Thread 0: 40 ms
-Thread 1: 44 ms
-Thread 2: 48 ms
-Thread 3: 52 ms
-Thread 4: 43 ms
-Thread 5: 34 ms
-Thread 6: 33 ms
-Thread 7: 33 ms
-Parallel Test, iterations: 3, mSize: 100, Result: 72 ms
-Thread 0: 63 ms
-Thread 1: 62 ms
-Thread 2: 59 ms
-Thread 3: 64 ms
-Thread 4: 68 ms
-Thread 5: 60 ms
-Thread 6: 59 ms
-Thread 7: 62 ms
-Sequential Test, iterations: 4, mSize: 100, Result: 354 ms
-Thread 0: 42 ms
-Thread 1: 47 ms
-Thread 2: 44 ms
-Thread 3: 43 ms
-Thread 4: 44 ms
-Thread 5: 44 ms
-Thread 6: 44 ms
-Thread 7: 44 ms
-Parallel Test, iterations: 4, mSize: 100, Result: 88 ms
-Thread 0: 77 ms
-Thread 1: 81 ms
-Thread 2: 81 ms
-Thread 3: 83 ms
-Thread 4: 83 ms
-Thread 5: 85 ms
-Thread 6: 83 ms
-Thread 7: 87 ms
-Sequential Test, iterations: 5, mSize: 100, Result: 414 ms
+Sequential Test, iterations: 2, mSize: 100, Result: 163 ms
+Thread 0: 19 ms
+Thread 1: 19 ms
+Thread 2: 19 ms
+Thread 3: 19 ms
+Thread 4: 20 ms
+Thread 5: 20 ms
+Thread 6: 20 ms
+Thread 7: 20 ms
+Parallel Test, iterations: 2, mSize: 100, Result: 42 ms
+Thread 0: 34 ms
+Thread 1: 34 ms
+Thread 2: 34 ms
+Thread 3: 35 ms
+Thread 4: 36 ms
+Thread 5: 36 ms
+Thread 6: 41 ms
+Thread 7: 41 ms
+Sequential Test, iterations: 3, mSize: 100, Result: 244 ms
+Thread 0: 29 ms
+Thread 1: 30 ms
+Thread 2: 29 ms
+Thread 3: 30 ms
+Thread 4: 30 ms
+Thread 5: 30 ms
+Thread 6: 29 ms
+Thread 7: 30 ms
+Parallel Test, iterations: 3, mSize: 100, Result: 63 ms
 Thread 0: 50 ms
 Thread 1: 51 ms
+Thread 2: 54 ms
+Thread 3: 60 ms
+Thread 4: 60 ms
+Thread 5: 58 ms
+Thread 6: 61 ms
+Thread 7: 63 ms
+Sequential Test, iterations: 4, mSize: 100, Result: 326 ms
+Thread 0: 40 ms
+Thread 1: 41 ms
+Thread 2: 39 ms
+Thread 3: 40 ms
+Thread 4: 42 ms
+Thread 5: 41 ms
+Thread 6: 41 ms
+Thread 7: 41 ms
+Parallel Test, iterations: 4, mSize: 100, Result: 76 ms
+Thread 0: 69 ms
+Thread 1: 69 ms
+Thread 2: 69 ms
+Thread 3: 72 ms
+Thread 4: 72 ms
+Thread 5: 73 ms
+Thread 6: 72 ms
+Thread 7: 75 ms
+Sequential Test, iterations: 5, mSize: 100, Result: 410 ms
+Thread 0: 50 ms
+Thread 1: 50 ms
 Thread 2: 52 ms
 Thread 3: 52 ms
-Thread 4: 50 ms
-Thread 5: 50 ms
-Thread 6: 52 ms
-Thread 7: 55 ms
-Parallel Test, iterations: 5, mSize: 100, Result: 117 ms
-Thread 0: 90 ms
-Thread 1: 92 ms
-Thread 2: 95 ms
-Thread 3: 96 ms
-Thread 4: 101 ms
-Thread 5: 104 ms
-Thread 6: 105 ms
-Thread 7: 116 ms
-Sequential Test, iterations: 1, mSize: 200, Result: 683 ms
-Thread 0: 84 ms
-Thread 1: 84 ms
-Thread 2: 85 ms
-Thread 3: 85 ms
-Thread 4: 86 ms
-Thread 5: 85 ms
-Thread 6: 85 ms
+Thread 4: 52 ms
+Thread 5: 51 ms
+Thread 6: 49 ms
+Thread 7: 51 ms
+Parallel Test, iterations: 5, mSize: 100, Result: 96 ms
+Thread 0: 86 ms
+Thread 1: 89 ms
+Thread 2: 90 ms
+Thread 3: 91 ms
+Thread 4: 91 ms
+Thread 5: 92 ms
+Thread 6: 93 ms
+Thread 7: 95 ms
+Sequential Test, iterations: 1, mSize: 200, Result: 680 ms
+Thread 0: 82 ms
+Thread 1: 86 ms
+Thread 2: 86 ms
+Thread 3: 84 ms
+Thread 4: 83 ms
+Thread 5: 86 ms
+Thread 6: 84 ms
 Thread 7: 85 ms
-Parallel Test, iterations: 1, mSize: 200, Result: 180 ms
-Thread 0: 159 ms
-Thread 1: 159 ms
-Thread 2: 161 ms
-Thread 3: 162 ms
-Thread 4: 163 ms
-Thread 5: 171 ms
-Thread 6: 174 ms
-Thread 7: 179 ms
-Sequential Test, iterations: 2, mSize: 200, Result: 1370 ms
-Thread 0: 173 ms
-Thread 1: 171 ms
-Thread 2: 168 ms
+Parallel Test, iterations: 1, mSize: 200, Result: 189 ms
+Thread 0: 165 ms
+Thread 1: 170 ms
+Thread 2: 170 ms
 Thread 3: 170 ms
-Thread 4: 169 ms
-Thread 5: 175 ms
-Thread 6: 168 ms
-Thread 7: 171 ms
-Parallel Test, iterations: 2, mSize: 200, Result: 362 ms
-Thread 0: 312 ms
-Thread 1: 313 ms
+Thread 4: 171 ms
+Thread 5: 173 ms
+Thread 6: 173 ms
+Thread 7: 188 ms
+Sequential Test, iterations: 2, mSize: 200, Result: 1368 ms
+Thread 0: 170 ms
+Thread 1: 168 ms
+Thread 2: 170 ms
+Thread 3: 166 ms
+Thread 4: 165 ms
+Thread 5: 182 ms
+Thread 6: 170 ms
+Thread 7: 170 ms
+Parallel Test, iterations: 2, mSize: 200, Result: 338 ms
+Thread 0: 317 ms
+Thread 1: 317 ms
 Thread 2: 317 ms
-Thread 3: 318 ms
-Thread 4: 322 ms
-Thread 5: 339 ms
-Thread 6: 340 ms
-Thread 7: 361 ms
-Sequential Test, iterations: 3, mSize: 200, Result: 2052 ms
-Thread 0: 259 ms
-Thread 1: 252 ms
-Thread 2: 255 ms
-Thread 3: 258 ms
-Thread 4: 261 ms
-Thread 5: 251 ms
-Thread 6: 255 ms
-Thread 7: 255 ms
-Parallel Test, iterations: 3, mSize: 200, Result: 572 ms
-Thread 0: 463 ms
-Thread 1: 469 ms
-Thread 2: 484 ms
-Thread 3: 491 ms
-Thread 4: 550 ms
-Thread 5: 565 ms
-Thread 6: 566 ms
-Thread 7: 571 ms
-Sequential Test, iterations: 4, mSize: 200, Result: 2724 ms
-Thread 0: 345 ms
-Thread 1: 339 ms
-Thread 2: 332 ms
-Thread 3: 338 ms
-Thread 4: 338 ms
-Thread 5: 341 ms
-Thread 6: 340 ms
-Thread 7: 347 ms
-Parallel Test, iterations: 4, mSize: 200, Result: 706 ms
-Thread 0: 648 ms
-Thread 1: 659 ms
-Thread 2: 673 ms
-Thread 3: 684 ms
-Thread 4: 686 ms
-Thread 5: 690 ms
-Thread 6: 699 ms
-Thread 7: 705 ms
-Sequential Test, iterations: 5, mSize: 200, Result: 3388 ms
-Thread 0: 421 ms
-Thread 1: 427 ms
-Thread 2: 423 ms
-Thread 3: 423 ms
-Thread 4: 422 ms
-Thread 5: 425 ms
-Thread 6: 421 ms
+Thread 3: 322 ms
+Thread 4: 324 ms
+Thread 5: 326 ms
+Thread 6: 335 ms
+Thread 7: 336 ms
+Sequential Test, iterations: 3, mSize: 200, Result: 2036 ms
+Thread 0: 254 ms
+Thread 1: 253 ms
+Thread 2: 253 ms
+Thread 3: 253 ms
+Thread 4: 256 ms
+Thread 5: 253 ms
+Thread 6: 252 ms
+Thread 7: 257 ms
+Parallel Test, iterations: 3, mSize: 200, Result: 526 ms
+Thread 0: 477 ms
+Thread 1: 486 ms
+Thread 2: 491 ms
+Thread 3: 493 ms
+Thread 4: 498 ms
+Thread 5: 502 ms
+Thread 6: 507 ms
+Thread 7: 524 ms
+Sequential Test, iterations: 4, mSize: 200, Result: 2751 ms
+Thread 0: 337 ms
+Thread 1: 383 ms
+Thread 2: 335 ms
+Thread 3: 334 ms
+Thread 4: 335 ms
+Thread 5: 347 ms
+Thread 6: 339 ms
+Thread 7: 335 ms
+Parallel Test, iterations: 4, mSize: 200, Result: 746 ms
+Thread 0: 670 ms
+Thread 1: 707 ms
+Thread 2: 711 ms
+Thread 3: 714 ms
+Thread 4: 726 ms
+Thread 5: 729 ms
+Thread 6: 745 ms
+Thread 7: 744 ms
+Sequential Test, iterations: 5, mSize: 200, Result: 3401 ms
+Thread 0: 420 ms
+Thread 1: 423 ms
+Thread 2: 424 ms
+Thread 3: 419 ms
+Thread 4: 426 ms
+Thread 5: 438 ms
+Thread 6: 425 ms
 Thread 7: 420 ms
-Parallel Test, iterations: 5, mSize: 200, Result: 881 ms
-Thread 0: 781 ms
-Thread 1: 782 ms
-Thread 2: 815 ms
-Thread 3: 837 ms
-Thread 4: 849 ms
-Thread 5: 853 ms
-Thread 6: 865 ms
-Thread 7: 880 ms
-Sequential Test, iterations: 1, mSize: 300, Result: 2346 ms
-Thread 0: 289 ms
-Thread 1: 297 ms
-Thread 2: 289 ms
-Thread 3: 295 ms
-Thread 4: 289 ms
-Thread 5: 299 ms
-Thread 6: 289 ms
-Thread 7: 289 ms
-Parallel Test, iterations: 1, mSize: 300, Result: 619 ms
-Thread 0: 543 ms
-Thread 1: 551 ms
-Thread 2: 553 ms
-Thread 3: 563 ms
-Thread 4: 595 ms
+Parallel Test, iterations: 5, mSize: 200, Result: 912 ms
+Thread 0: 861 ms
+Thread 1: 872 ms
+Thread 2: 877 ms
+Thread 3: 880 ms
+Thread 4: 882 ms
+Thread 5: 885 ms
+Thread 6: 908 ms
+Thread 7: 911 ms
+Sequential Test, iterations: 1, mSize: 300, Result: 2329 ms
+Thread 0: 284 ms
+Thread 1: 296 ms
+Thread 2: 285 ms
+Thread 3: 293 ms
+Thread 4: 290 ms
+Thread 5: 290 ms
+Thread 6: 291 ms
+Thread 7: 286 ms
+Parallel Test, iterations: 1, mSize: 300, Result: 639 ms
+Thread 0: 538 ms
+Thread 1: 544 ms
+Thread 2: 557 ms
+Thread 3: 566 ms
+Thread 4: 588 ms
 Thread 5: 604 ms
-Thread 6: 612 ms
-Thread 7: 616 ms
-Sequential Test, iterations: 2, mSize: 300, Result: 4746 ms
-Thread 0: 610 ms
+Thread 6: 608 ms
+Thread 7: 637 ms
+Sequential Test, iterations: 2, mSize: 300, Result: 4599 ms
+Thread 0: 569 ms
 Thread 1: 576 ms
-Thread 2: 581 ms
-Thread 3: 581 ms
-Thread 4: 576 ms
-Thread 5: 637 ms
-Thread 6: 598 ms
-Thread 7: 577 ms
-Parallel Test, iterations: 2, mSize: 300, Result: 1462 ms
-Thread 0: 1392 ms
-Thread 1: 1395 ms
-Thread 2: 1420 ms
-Thread 3: 1420 ms
-Thread 4: 1423 ms
-Thread 5: 1425 ms
-Thread 6: 1440 ms
-Thread 7: 1459 ms
-Sequential Test, iterations: 3, mSize: 300, Result: 7420 ms
-Thread 0: 870 ms
-Thread 1: 1013 ms
-Thread 2: 1056 ms
-Thread 3: 886 ms
-Thread 4: 875 ms
-Thread 5: 874 ms
-Thread 6: 891 ms
-Thread 7: 945 ms
-Parallel Test, iterations: 3, mSize: 300, Result: 2023 ms
-Thread 0: 1784 ms
-Thread 1: 1808 ms
-Thread 2: 1817 ms
-Thread 3: 1855 ms
-Thread 4: 1982 ms
-Thread 5: 2000 ms
-Thread 6: 2001 ms
-Thread 7: 2021 ms
-Sequential Test, iterations: 4, mSize: 300, Result: 9386 ms
-Thread 0: 1186 ms
-Thread 1: 1169 ms
-Thread 2: 1160 ms
-Thread 3: 1168 ms
-Thread 4: 1178 ms
-Thread 5: 1158 ms
-Thread 6: 1166 ms
-Thread 7: 1189 ms
-Parallel Test, iterations: 4, mSize: 300, Result: 3188 ms
-Thread 0: 2882 ms
-Thread 1: 2887 ms
-Thread 2: 2923 ms
-Thread 3: 3060 ms
-Thread 4: 3101 ms
-Thread 5: 3149 ms
-Thread 6: 3150 ms
-Thread 7: 3185 ms
-Sequential Test, iterations: 5, mSize: 300, Result: 12412 ms
-Thread 0: 1461 ms
-Thread 1: 1619 ms
-Thread 2: 1460 ms
-Thread 3: 1679 ms
-Thread 4: 1546 ms
-Thread 5: 1481 ms
-Thread 6: 1476 ms
-Thread 7: 1678 ms
-Parallel Test, iterations: 5, mSize: 300, Result: 4324 ms
-Thread 0: 3755 ms
-Thread 1: 3768 ms
-Thread 2: 3785 ms
-Thread 3: 3807 ms
-Thread 4: 4223 ms
-Thread 5: 4232 ms
-Thread 6: 4254 ms
-Thread 7: 4322 ms
+Thread 2: 568 ms
+Thread 3: 579 ms
+Thread 4: 568 ms
+Thread 5: 578 ms
+Thread 6: 579 ms
+Thread 7: 569 ms
+Parallel Test, iterations: 2, mSize: 300, Result: 1396 ms
+Thread 0: 1280 ms
+Thread 1: 1294 ms
+Thread 2: 1314 ms
+Thread 3: 1329 ms
+Thread 4: 1331 ms
+Thread 5: 1348 ms
+Thread 6: 1351 ms
+Thread 7: 1392 ms
+Sequential Test, iterations: 3, mSize: 300, Result: 6971 ms
+Thread 0: 905 ms
+Thread 1: 848 ms
+Thread 2: 879 ms
+Thread 3: 854 ms
+Thread 4: 868 ms
+Thread 5: 847 ms
+Thread 6: 901 ms
+Thread 7: 857 ms
+Parallel Test, iterations: 3, mSize: 300, Result: 2124 ms
+Thread 0: 1991 ms
+Thread 1: 2010 ms
+Thread 2: 2016 ms
+Thread 3: 2028 ms
+Thread 4: 2032 ms
+Thread 5: 2041 ms
+Thread 6: 2046 ms
+Thread 7: 2120 ms
+Sequential Test, iterations: 4, mSize: 300, Result: 9824 ms
+Thread 0: 1255 ms
+Thread 1: 1182 ms
+Thread 2: 1143 ms
+Thread 3: 1417 ms
+Thread 4: 1288 ms
+Thread 5: 1238 ms
+Thread 6: 1150 ms
+Thread 7: 1138 ms
+Parallel Test, iterations: 4, mSize: 300, Result: 2912 ms
+Thread 0: 2778 ms
+Thread 1: 2799 ms
+Thread 2: 2800 ms
+Thread 3: 2840 ms
+Thread 4: 2855 ms
+Thread 5: 2868 ms
+Thread 6: 2894 ms
+Thread 7: 2909 ms
+Sequential Test, iterations: 5, mSize: 300, Result: 12409 ms
+Thread 0: 1496 ms
+Thread 1: 1456 ms
+Thread 2: 1505 ms
+Thread 3: 1519 ms
+Thread 4: 1511 ms
+Thread 5: 1620 ms
+Thread 6: 1603 ms
+Thread 7: 1686 ms
+Parallel Test, iterations: 5, mSize: 300, Result: 3697 ms
+Thread 0: 3515 ms
+Thread 1: 3575 ms
+Thread 2: 3576 ms
+Thread 3: 3584 ms
+Thread 4: 3604 ms
+Thread 5: 3645 ms
+Thread 6: 3666 ms
+Thread 7: 3695 ms

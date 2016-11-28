@@ -30,7 +30,7 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker implements Seria
     /**
      * Initializes the matrices based on the size parameter.
      */
-    protected void initMatrixes() {
+    private void initMatrixes() {
         a = buildMatrix();
         b = buildMatrix();
     }
@@ -46,7 +46,7 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker implements Seria
     /**
      * Performs one iteration of matrix multiplication.
      */
-    protected void doMatrixMultiplication() {
+    private void doMatrixMultiplication() {
         Arrays.stream(a)
                 .map(r -> IntStream.range(0, b[0].length)
                         .mapToDouble(i -> IntStream.range(0, b.length)
