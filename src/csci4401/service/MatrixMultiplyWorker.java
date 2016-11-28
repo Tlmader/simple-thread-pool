@@ -10,14 +10,9 @@ import java.util.stream.IntStream;
 public class MatrixMultiplyWorker extends AbstractServiceWorker implements Serializable {
 
     private double[][] a, b;
-    private int mSize;
-    private int iterations;
-    private BalancedMMServicePool pool;
-
-    public MatrixMultiplyWorker(BalancedMMServicePool pool) {
-        super(pool.resultQ);
-        this.pool = pool;
-    }
+    protected int mSize;
+    protected int iterations;
+    protected BalancedMMServicePool pool;
 
     public MatrixMultiplyWorker(MatrixMultiplyParameters parameters, BalancedMMServicePool pool) {
         super(parameters, pool.resultQ);
@@ -35,7 +30,7 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker implements Seria
     /**
      * Initializes the matrices based on the size parameter.
      */
-    private void initMatrixes() {
+    protected void initMatrixes() {
         a = buildMatrix();
         b = buildMatrix();
     }
@@ -51,7 +46,7 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker implements Seria
     /**
      * Performs one iteration of matrix multiplication.
      */
-    private void doMatrixMultiplication() {
+    protected void doMatrixMultiplication() {
         Arrays.stream(a)
                 .map(r -> IntStream.range(0, b[0].length)
                         .mapToDouble(i -> IntStream.range(0, b.length)
@@ -64,7 +59,12 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker implements Seria
      * The result is a <pre>Long</pre> object, which contains the execution time in milliseconds for all computations,
      * <b>without</b> the initialization.
      */
+    @Override
     public void run() {
+        doComputation();
+    }
+
+    protected void doComputation() {
         initMatrixes();
         Long start = System.currentTimeMillis();
         IntStream.range(0, iterations).forEach(i -> doMatrixMultiplication());
@@ -75,10 +75,5 @@ public class MatrixMultiplyWorker extends AbstractServiceWorker implements Seria
         } else {
             resultQ.append(time);
         }
-    }
-
-    public void setParameters(MatrixMultiplyParameters parameters) {
-        mSize = parameters.matrixSize;
-        iterations = parameters.iterations;
     }
 }

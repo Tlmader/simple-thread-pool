@@ -1,8 +1,7 @@
 package csci4401.service;
 
 import java.io.Serializable;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.ArrayList;
 import java.util.stream.IntStream;
 
 /**
@@ -11,7 +10,7 @@ import java.util.stream.IntStream;
  */
 public class ReusableMMServicePool extends BalancedMMServicePool {
 
-    Queue<AbstractServiceWorker> workers = new PriorityQueue<>();
+    ArrayList<ReusableMMWorker> workers = new ArrayList<>();
 
     /**
      * @param poolMin minimum pool size
@@ -20,6 +19,7 @@ public class ReusableMMServicePool extends BalancedMMServicePool {
     public ReusableMMServicePool(int poolMin, int poolMax) {
         super(poolMin, poolMax);
         IntStream.range(0, poolMax).forEach(i -> workers.add(factory.newServiceWorker(this)));
+        workers.forEach(Thread::start);
     }
 
     @Override
@@ -44,10 +44,9 @@ public class ReusableMMServicePool extends BalancedMMServicePool {
         }
     }
 
-    private void addRequestForReusableWorker(Serializable request) {
-        MatrixMultiplyWorker worker = (MatrixMultiplyWorker) workers.remove();
-        worker.setParameters((MatrixMultiplyParameters) request);
-        worker.start();
+    private synchronized void addRequestForReusableWorker(Serializable request) {
+        ReusableMMWorker worker = workers.remove(0);
+        worker.addRequest(request);
         workers.add(worker);
     }
 
