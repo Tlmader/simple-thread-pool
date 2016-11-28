@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d757868c-bd3d-49ee-8aa8-2ada87e97bfa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" afterPath="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="MatrixMultiplyServicePool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ReusableMMServicePool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="34">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,12 +46,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReusableMMWorker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReusableMMWorker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="38">
+              <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixMultiplyServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatrixMultiplyServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="-51">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,10 +107,10 @@
         <option value="$PROJECT_DIR$/src/csci4401/service/BalancedMMServicePool.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" />
       </list>
     </option>
   </component>
@@ -611,12 +621,12 @@
       <workItem from="1479940639968" duration="373000" />
       <workItem from="1479941625052" duration="4005000" />
       <workItem from="1479947031520" duration="865000" />
-      <workItem from="1480354318728" duration="10720000" />
+      <workItem from="1480354318728" duration="11369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18994000" />
+    <option name="totallyTimeSpent" value="19643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +647,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206934" sideWeight="0.49573562" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
@@ -681,15 +691,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java</url>
           <line>38</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java</url>
@@ -729,36 +733,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="32" />
@@ -769,8 +743,26 @@
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1018,17 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/MsgQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1037,20 +1018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java">
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServicePool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1065,9 +1036,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="-51">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

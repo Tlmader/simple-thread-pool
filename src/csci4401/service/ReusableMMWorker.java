@@ -21,7 +21,7 @@ public class ReusableMMWorker extends MatrixMultiplyWorker {
      * <b>without</b> the initialization.
      */
     @Override
-    public synchronized void run() {
+    public void run() {
         while (true) {
             MatrixMultiplyParameters parameters = null;
             try {
@@ -35,8 +35,7 @@ public class ReusableMMWorker extends MatrixMultiplyWorker {
         }
     }
 
-    public synchronized void addRequest(Serializable parameters) {
-        this.notify();
+    public void addRequest(Serializable parameters) {
         queue.append(parameters);
     }
 }

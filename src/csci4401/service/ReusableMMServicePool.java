@@ -23,28 +23,7 @@ public class ReusableMMServicePool extends BalancedMMServicePool {
     }
 
     @Override
-    public synchronized void addRequest(Serializable request) {
-        System.out.println(java.lang.Thread.activeCount());
-        if (java.lang.Thread.activeCount() >= poolMax) {
-            delayedRequests.append(request);
-            while (java.lang.Thread.activeCount() >= poolMax) {
-                try {
-                    this.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-            try {
-                addRequestForReusableWorker(delayedRequests.pop());
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        } else {
-            addRequestForReusableWorker(request);
-        }
-    }
-
-    private synchronized void addRequestForReusableWorker(Serializable request) {
+    public void addRequest(Serializable request) {
         ReusableMMWorker worker = workers.remove(0);
         worker.addRequest(request);
         workers.add(worker);
