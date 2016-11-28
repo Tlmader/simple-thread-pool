@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d757868c-bd3d-49ee-8aa8-2ada87e97bfa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" afterPath="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" afterPath="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" afterPath="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -46,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReusableMMWorker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReusableMMWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="140">
               <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#1153#1154#0" expanded="true" />
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixMultiplyServiceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MatrixMultiplyServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -108,9 +107,9 @@
         <option value="$PROJECT_DIR$/src/csci4401/service/BasicMsgQ.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorkerFactory.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyWorker.java" />
-        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java" />
         <option value="$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java" />
+        <option value="$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java" />
       </list>
     </option>
   </component>
@@ -621,12 +620,12 @@
       <workItem from="1479940639968" duration="373000" />
       <workItem from="1479941625052" duration="4005000" />
       <workItem from="1479947031520" duration="865000" />
-      <workItem from="1480354318728" duration="11369000" />
+      <workItem from="1480354318728" duration="11424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19643000" />
+    <option name="totallyTimeSpent" value="19698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1034,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMServicePool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1054,12 +1045,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csci4401/service/ReusableMMWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="140">
           <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#1153#1154#0" expanded="true" />
             <element signature="e#1193#1194#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csci4401/service/MatrixMultiplyServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>

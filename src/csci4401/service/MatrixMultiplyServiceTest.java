@@ -11,9 +11,9 @@ public class MatrixMultiplyServiceTest {
 
     public static void main(String[] argv) throws Exception {
         int poolMax = Runtime.getRuntime().availableProcessors();
-//        runTests(new MatrixMultiplyServicePool(0, poolMax));
-//        runTests(new BalancedMMServicePool(0, poolMax));
+        runTests(new BalancedMMServicePool(0, poolMax));
         runTests(new ReusableMMServicePool(0, poolMax));
+        runTests(new MatrixMultiplyServicePool(0, poolMax));
     }
 
     /**
