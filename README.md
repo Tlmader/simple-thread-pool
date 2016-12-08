@@ -1,4 +1,4 @@
-# csci4401-pa2
+# simple-thread-pool
 A simple thread pool facility for Java threads.
 
 Utilizes a thread pool to expose a message interface. Sending a message to the pool triggers the creation of a thread with the initial parameters contained in the message.
