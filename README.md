@@ -1,6 +1,6 @@
 # simple-thread-pool
 
-**Principles of Operating Systems I Assignments 2 & 3***
+**Principles of Operating Systems I Assignments 2 & 3**
 
 A simple thread pool facility for Java threads.
 
